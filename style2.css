@@ -1,0 +1,49 @@
+
+.addonmeaning{
+    font-size: 15px;
+    color: rgb(169, 23, 23);
+    
+}
+
+
+.header{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .word,.meaning,.dot,.dash{
+    display: inline;
+    font-size: 20px;
+  }
+
+  .meaning{
+    font-size: 18px;
+  }
+  .sentence{
+    font-size: 20px;
+    display: inline;
+  }
+  .example{
+    font-size: 20px;
+    display: inline;
+    margin-right: 5px;
+  }
+.content{
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.sentenceExample{
+    padding-top: 8px;
+}
+
+.backslash{
+    font-weight: bolder;
+}
