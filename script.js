@@ -16,422 +16,358 @@ let gifContainer=document.createElement('div')
 gifContainer.setAttribute('id','fireWork')
 
 
-let Whisper="./images/whisper.jpg"
-let Mumble="./images/Whisper.jpg"
-let Annoy='./images/annoy.jpg'
-let Yawn='./images/yawn.jpg'
-let Consent='./images/consent.png'
-let Approval='./images/consent.png'
-let Accord='./images/consent.png'
-let Plead='./images/plead.webp'
-let Apologize='./images/plead.webp'
-let Provide='./images/provide.jpg'
-let Abstain='./images/abstain.jpg'
-let Vain='./images/vain.webp'
-let Storm='./images/storm.jpg'
-let Gale='./images/storm.jpg'
-let Tempest='./images/storm.jpg'
-let Compulsion='./images/compulsion.webp'
-let Neglect='./images/neglect.jpg'
-let Resolve='./images/resolve.jpg'
-let Lick='./images/lick.webp'
-let Courage='./images/courage.jpg'
-let Inevitable='./images/inevitable.jpg'
-let Sneeze='./images/sneeze.jpg'
-let Begger='./images/begger.jpg'
-let Disaster ='./images/disaster.jpg'
-let Distraught='./images/distraught.jpg'
-let Economical='./images/economical.webp'
-let Emphasize='./images/emphasize.webp'
-let Extravagant='./images/extravagant.jpg'
-let Fire='./images/fire.jpg'
-let Gigantic='./images/gigantic.jpg'
-let Impatience='./images/impatience.jpg'
-let Lack='./images/lack.jpg'
-let Scarcity='./images/lack.jpg'
-let Deficiency='./images/lack.jpg'
+let Whisper="./whisper.jpg"
+let Mumble="./Whisper.jpg"
+let Annoy='./annoy.jpg'
+let Yawn='./yawn.jpg'
+let Consent='./consent.png'
+let Approval='./consent.png'
+let Accord='./consent.png'
+let Plead='./plead.webp'
+let Apologize='./plead.webp'
+let Provide='./provide.jpg'
+let Abstain='./abstain.jpg'
+let Vain='./vain.webp'
+let Storm='./storm.jpg'
+let Gale='./storm.jpg'
+let Tempest='./storm.jpg'
+let Compulsion='./compulsion.webp'
+let Neglect='./neglect.jpg'
+let Resolve='./resolve.jpg'
+let Lick='./lick.webp'
+let Courage='./courage.jpg'
+let Inevitable='./inevitable.jpg'
+let Sneeze='./sneeze.jpg'
+let Begger='./begger.jpg'
+let Disaster ='./disaster.jpg'
+let Distraught='./distraught.jpg'
+let Economical='./economical.webp'
+let Emphasize='./emphasize.webp'
+let Extravagant='./extravagant.jpg'
+let Fire='./fire.jpg'
+let Gigantic='./gigantic.jpg'
+let Impatience='./impatience.jpg'
+let Lack='./lack.jpg'
+let Scarcity='./lack.jpg'
+let Deficiency='./lack.jpg'
 
-let Loot='./images/loot.jpg'
-let Miser='./images/miser.webp'
-let Stingy='./images/miser.webp'
-let Persuade='./images/persuade.webp'
-let Reduce='./images/reduce.png'
-let Sacrifice='./images/sacrifice.jpg'
-let Seek='./images/seek.jpg'
-let Strength='./images/strength.jpg'
-let Suffer='./images/suffer.jpg' 
-let Summon='./images/summon.webp'
-let Unpleasant='./images/unpleasant.jpg'
-let Blunder='./images/blunder.jpg'
-let Patience='./images/patience.png'
-let Deaf='./images/deaf.jpg'
-let Condemn='./images/condemn.jpg'
-let Criticize='./images/condemn.jpg'
-let Blame='./images/condemn.jpg'
+let Loot='./loot.jpg'
+let Miser='./miser.webp'
+let Stingy='./miser.webp'
+let Persuade='./persuade.webp'
+let Reduce='./reduce.png'
+let Sacrifice='./sacrifice.jpg'
+let Seek='./seek.jpg'
+let Strength='./strength.jpg'
+let Suffer='./suffer.jpg' 
+let Summon='./summon.webp'
+let Unpleasant='./unpleasant.jpg'
+let Blunder='./blunder.jpg'
+let Patience='./patience.png'
+let Deaf='./deaf.jpg'
+let Condemn='./condemn.jpg'
+let Criticize='./condemn.jpg'
+let Blame='./condemn.jpg'
 
-let Greedy='./images/greedy.jpg'
-let Fortunate='./images/fortunate.jpg'
-let Vanity='./images/vanity.jpg'
-let Abundant='./images/abundant.jpg'
-let Abandon='./images/abandon.jpg'
-let Secure='./images/secure.jpg'
-let Deteriorate='./images/deteriorate.webp'
-let Privacy='./images/privacy.png'
-let Wonder='./images/wonder.jpg'
+let Greedy='./greedy.jpg'
+let Fortunate='./fortunate.jpg'
+let Vanity='./vanity.jpg'
+let Abundant='./abundant.jpg'
+let Abandon='./abandon.jpg'
+let Secure='./secure.jpg'
+let Deteriorate='./deteriorate.webp'
+let Privacy='./privacy.png'
+let Wonder='./wonder.jpg'
 
-let Reward='./images/reward.png'
+let Reward='./reward.png'
 
-let Feeble='./images/feeble.jpg'
+let Feeble='./feeble.jpg'
 
-let Ritual='./images/ritual.JPG'
+let Ritual='./ritual.JPG'
 
-let Weary='./images/weary.jpg'
-let Interguing='./images/interguing.jpg'
+let Weary='./weary.jpg'
+let Interguing='./interguing.jpg'
 
-let Overcome='./images/overcome.webp'
-let Sympathy='./images/sympathy.jpg'
+let Overcome='./overcome.webp'
+let Sympathy='./sympathy.jpg'
 
-let Tolerance='./images/tolerate.jpeg'
+let Tolerance='./tolerate.jpeg'
 
-let Crave='./images/crave.jpg'
+let Crave='./crave.jpg'
 
-let Insist='./images/insist.jpg'
+let Insist='./insist.jpg'
 
-let Gratify='./images/gratify.webp'
-let Pleased='./images/gratify.webp'
+let Gratify='./gratify.webp'
+let Pleased='./gratify.webp'
 
-let Seldom='./images/seldom.jpg'
+let Seldom='./seldom.jpg'
 
-let Rare='./images/rare.jpg'
+let Rare='./rare.jpg'
 
 
-let Trap='./images/trap.jpg'
+let Trap='./trap.jpg'
 
-let Inspire='./images/inspire.webp'
+let Inspire='./inspire.webp'
 
-let Glad='./images/glad.jpg'
+let Glad='./glad.jpg'
 
-let Peep='./images/peep.jpg'
+let Peep='./peep.jpg'
 
-let Rope='./images/rope.jpg'
+let Rope='./rope.jpg'
 
 
-let Various='./images/various.jpg'
-let Unity='./images/unity.jpg'
+let Various='./various.jpg'
+let Unity='./unity.jpg'
 
-let Diversity='./images/diversity.jpg'
+let Diversity='./diversity.jpg'
 
-let Resemble='./images/resemble.jpg'
+let Resemble='./resemble.jpg'
 
-let Chew='./images/chew.gif'
+let Chew='./chew.gif'
 
-let Empty='./images/empty.jpg'
-let Vacant='./images/vacant.jpg'
+let Empty='./empty.jpg'
+let Vacant='./vacant.jpg'
 
-let Disguise='./images/disguise.webp'
-let Shelter='./images/shelter.jpg'
+let Disguise='./disguise.webp'
+let Shelter='./shelter.jpg'
 
-let Admire='./images/admire.webp'
+let Admire='./admire.webp'
 
-let Praise='./images/praise.webp'
-let Glorify='./images/praise.webp'
+let Praise='./praise.webp'
+let Glorify='./praise.webp'
 
-let Appreciate='./images/praise.webp'
+let Appreciate='./praise.webp'
 
 
 
 
 
-let Scold='./images/chastise.jpg'
-let Rebuke='./images/chastise.jpg'
-let Reprimand='./images/chastise.jpg'
-let Chastise='./images/chastise.jpg'
+let Scold='./chastise.jpg'
+let Rebuke='./chastise.jpg'
+let Reprimand='./chastise.jpg'
+let Chastise='./chastise.jpg'
 
-let Yell='./images/yell.jpg'
+let Yell='./yell.jpg'
 
-let Shout='./images/yell.jpg'
+let Shout='./yell.jpg'
 
-let Terrified='./images/terrified.jpg'
+let Terrified='./terrified.jpg'
 
-let Horrified='./images/terrified.jpg'
+let Horrified='./terrified.jpg'
 
-let Scared='./images/terrified.jpg'
+let Scared='./terrified.jpg'
 
-let Cheer='./images/cheer.jpg'
-let Chanting='./images/chanting.jpg'
+let Cheer='./cheer.jpg'
+let Chanting='./chanting.jpg'
 
-let Wet='./images/wet.jpg'
-let Blind='./images/blind.jpg'
-let Drag='./images/drag.jpg'
+let Wet='./wet.jpg'
+let Blind='./blind.jpg'
+let Drag='./drag.jpg'
 
-let Pull='./images/drag.jpg'
+let Pull='./drag.jpg'
 
-let Reconcile ='./images/reconcile.webp'
+let Reconcile ='./reconcile.webp'
 
-let Bend='./images/bend.jpg'
+let Bend='./bend.jpg'
 
-let Deform='./images/deform.jpg'
+let Deform='./deform.jpg'
 
-let Tolerate='./images/tolerate.jpeg'
-let Bear='./images/tolerate.jpeg'
-let Endure='./images/tolerate.jpeg'
+let Tolerate='./tolerate.jpeg'
+let Bear='./tolerate.jpeg'
+let Endure='./tolerate.jpeg'
 
-let Resist='./images/resist.jpg'
+let Resist='./resist.jpg'
 
-let Convenient='./images/convenient.jpg'
+let Convenient='./convenient.jpg'
 
-let Extensive='./images/extensive.webp'
+let Extensive='./extensive.webp'
 
-let Vessel='./images/vessel.webp'
+let Vessel='./vessel.webp'
 
-let Utensil='./images/vessel.webp'
+let Utensil='./vessel.webp'
 
-let Accumulate='./images/economical.webp'
+let Accumulate='./economical.webp'
 
-let Consequences='./images/consequences.webp'
+let Consequences='./consequences.webp'
 
-let Avoid='./images/avoid.jpg'
+let Avoid='./avoid.jpg'
 
-let Negligible='./images/negligible.jpg'
+let Negligible='./negligible.jpg'
 
-let Trivial='./images/trivial.jpg'
+let Trivial='./trivial.jpg'
 
-let Insuficient='./images/insuficient.jpg'
-let Enormous='./images/enormous.jpg'
+let Insuficient='./insuficient.jpg'
+let Enormous='./enormous.jpg'
 
-let Adopt='./images/adopt.jpg'
+let Adopt='./adopt.jpg'
 
-let Anticipate='./images/anticipate.jpg'
+let Anticipate='./anticipate.jpg'
 
-let Argue='./images/argue.webp'
+let Argue='./argue.webp'
 
-let Assume='./images/assume.jpg'
+let Assume='./assume.jpg'
 
-let Borrow='./images/borrow.png'
+let Borrow='./borrow.png'
 
-let Hesitate='./images/hesitate.jpg'
+let Hesitate='./hesitate.jpg'
 
-let Irritate='./images/annoy.jpg'
+let Irritate='./annoy.jpg'
 
-let Exasperate='./images/annoy.jpg'
+let Exasperate='./annoy.jpg'
 
-let Eager='./images/eager.webp'
+let Eager='./eager.webp'
 
-let Curious='./images/curious.jpg'
+let Curious='./curious.jpg'
 
 
-let Keen='./images/eager.webp'
+let Keen='./eager.webp'
 
-let Concern='./images/concern.jpg'
+let Concern='./concern.jpg'
 
-let Anxiety='./images/anxiety.jpg'
+let Anxiety='./anxiety.jpg'
 
-let Describe ='./images/describe.webp'
+let Describe ='./describe.webp'
 
-let Elaborate='./images/elaborate.webp'
+let Elaborate='./elaborate.webp'
 
-let Drown='./images/drown.jpg'
+let Drown='./drown.jpg'
 
-let Choose='./images/choose.jpg'
+let Choose='./choose.jpg'
 
-let Enhance='./images/enhance.jpg'
+let Enhance='./enhance.jpg'
 
-let Fall='./images/fall.jpg'
+let Fall='./fall.jpg'
 
-let Fly='./images/fly.jpg'
+let Fly='./fly.jpg'
 
-let Follow='./images/follow.jpg'
-let Forbid='./images/forbid.webp'
+let Follow='./follow.jpg'
+let Forbid='./forbid.webp'
 
-let Forget='./images/forget.jpg'
+let Forget='./forget.jpg'
 
-let Forgive='./images/forgive.jpg'
+let Forgive='./forgive.jpg'
 
-let Explore='./images/explore.jpg'
+let Explore='./explore.jpg'
 
-let Gather='./images/gather.jpg'
+let Gather='./gather.jpg'
 
-let Grow='./images/grow.gif'
+let Grow='./grow.gif'
 
-let Grasp='./images/grasp.jpg'
-let Hold='./images/grasp.jpg'
+let Grasp='./grasp.jpg'
+let Hold='./grasp.jpg'
 
-let Glance='./images/glance.gif'
-let Glimpse='./images/glance.gif'
+let Glance='./glance.gif'
+let Glimpse='./glance.gif'
 
-let Guide='./images/guide.gif'
+let Guide='./guide.gif'
 
-let Mentor='./images/mentor.jpg'
+let Mentor='./mentor.jpg'
 
-let Give_Up='./images/give_up.jpg'
+let Give_Up='./give_up.jpg'
 
-let Guess='./images/guess.jpg'
+let Guess='./guess.jpg'
 
-let Hang='./images/hang.jpg'
+let Hang='./hang.jpg'
 
-let Hug='./images/hug.gif'
+let Hug='./hug.gif'
 
-let Hurry='./images/hurry.gif'
+let Hurry='./hurry.gif'
 
-let Ignore='./images/ignore.webp'
+let Ignore='./ignore.webp'
 
-let Justify='./images/justify.jpg'
+let Justify='./justify.jpg'
 
 
 
-let Keep='./images/keep.gif'
-let Lay='./images/keep.gif'
+let Keep='./keep.gif'
+let Lay='./keep.gif'
 
-let Lead='./images/guide.gif'
+let Lead='./guide.gif'
 
-let Lean='./images/lean.webp'
+let Lean='./lean.webp'
 
 
-let Leave='./images/leave.webp'
-let Observe='./images/curious.jpg'
-let Obtain='./images/obtain.jpg'
-let Get='./images/obtain.jpg'
+let Leave='./leave.webp'
+let Observe='./curious.jpg'
+let Obtain='./obtain.jpg'
+let Get='./obtain.jpg'
 
-let Recall='./images/recall.gif'
-let Remember='./images/recall.gif'
+let Recall='./recall.gif'
+let Remember='./recall.gif'
 
-let Refuse='./images/refuse.jpg'
+let Refuse='./refuse.jpg'
 
 
-let Regret='./images/regret.webp'
+let Regret='./regret.webp'
 
 
-let Require='./images/require.png'
+let Require='./require.png'
 
-let Satisfy='./images/gratify.webp'
+let Satisfy='./gratify.webp'
 
-let Serve='./images/serve.gif'
+let Serve='./serve.gif'
 
-let Survive='./images/survive.webp'
+let Survive='./survive.webp'
 
-let Squeeze='./images/squeeze.jpg'
+let Squeeze='./squeeze.jpg'
 
-let Swell='./images/swell.jpg'
+let Swell='./swell.jpg'
 
-let Swallow='./images/swallow.jpg'
-let Culprit='./images/guilty.webp'
+let Swallow='./swallow.jpg'
+let Culprit='./guilty.webp'
 
-let Pair='./images/pair.jpg'
+let Pair='./pair.jpg'
 
-let Quit='./images/give_up.jpg'
+let Quit='./give_up.jpg'
 
-let Vanish='./images/vanish.gif'
+let Vanish='./vanish.gif'
 
-let Wear='./images/wear.gif'
+let Wear='./wear.gif'
 
-let Impair='./images/impair.webp'
+let Impair='./impair.webp'
 
-let Beverage='./images/beverage.jpg'
+let Beverage='./beverage.jpg'
 
 
 
-let Guilty='./images/guilty.webp'
-let Faith='./images/faith.jpg'
+let Guilty='./guilty.webp'
+let Faith='./faith.jpg'
 
-let Jelous='./images/jelous.jpg'
+let Jelous='./jelous.jpg'
 
-let Religion='./images/diversity.jpg'
+let Religion='./diversity.jpg'
 
 
 
-let Trust='./images/trust.jpg'
+let Trust='./trust.jpg'
 
-let Quarrel='./images/argue.webp'
+let Quarrel='./argue.webp'
 
-let Dispute='./images/argue.webp'
+let Dispute='./argue.webp'
 
 
-let Roof='./images/roof.jpg'
+let Roof='./roof.jpg'
 
-let Stretch='./images/stretch.gif'
+let Stretch='./stretch.gif'
 
-let Clap='./images/clap.gif'
+let Clap='./clap.gif'
 
-let Wander='./images/wander.gif'
+let Wander='./wander.gif'
 
-let Pardon='./images/forgive.jpg'
-let Swear='./images/swear.webp'
+let Pardon='./forgive.jpg'
+let Swear='./swear.webp'
 
-let Prison='./images/prison.jpg'
+let Prison='./prison.jpg'
 
-let Futile='./images/futile.webp'
+let Futile='./futile.webp'
 
-let Excruciating='./images/suffer.jpg'
+let Excruciating='./suffer.jpg'
 
-let Capture='./images/capture.gif'
+let Capture='./capture.gif'
 
-let Expel='./images/expel.webp'
+let Expel='./expel.webp'
 
 // words after 200 
-
-let Spend='./images/spend.jpg'
-
-let Climb='./images/climb.gif'
-
-let Crowd='./images/gather.jpg'
-
-let Exaggerate='./images/exaggerate.jpg'
-
-let Deny='./images/forbid.webp'
-
-let Plenty='./images/abundant.jpg'
-
-let Ample='./images/abundant.jpg'
-
-let Decline='./images/reduce.png'
-
-let Earthquake='./images/earthquake.gif'
-
-let Destroy='./images/destroy.gif'
-
-let Demolish='./images/destroy.gif'
-
-let lit='./images/lit.gif'
-
-let Ruin='./images/destroy.gif'
-
-let Conserve='./images/conserve.webp'
-
-let Assosiate='./images/tolerate.jpeg'
-
-let Virtue='./images/trust.jpg'
-
-let Carry='./images/carry.jpg'
-
-let Reckless='./images/reckless.jpg'
-
-let Careless='./images/reckless.jpg'
-
-let Conciet='./images/vanity.jpg'
-
-let Proud='./images/vanity.jpg'
-
-let Distribute='./images/provide.jpg'
-
-let Share='./images/provide.jpg'
-
-let Stare='./images/stare.jpg'
-
-let Obsolete='./images/abandon.jpg'
-
-let Breath='./images/breath.jpg'
-
-let Steal='./images/loot.jpg'
-
-let Curse='./images/curse.jpg'
-
-let Put='./images/put.gif'
-
-let Stir='./images/put.gif'
-
-let Gain='./images/enhance.jpg'
-
-let Shiver='./images/shiver.gif'
 
 
 
@@ -747,14 +683,4 @@ setTimeout(() => {
 
 
    let mainContainer=document.getElementById('mainContainer')
-
-// for(let i=0;i<ArrayOfImages.length;i++){
-//     let imageElement=document.createElement('img')
-//     imageElement.setAttribute('src',ArrayOfImages[i])
-//     imageElement.style.width='200px'
-//     imageElement.style.display='block'
-//     imageElement.style.border="1px solid red"
-//     imageElement.style.margin='20px 0'
-//     mainContainer.appendChild(imageElement)
-// }
 
